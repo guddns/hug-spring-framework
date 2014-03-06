@@ -24,9 +24,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="hug-spring-framework" />
+        <module name="hug-core" />
+        <module name="hug-data-jpa" />
+        <module name="hug-data-mybatis" />
+        <module name="hug-web-example" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hug-core" target="1.7" />
+      <module name="hug-data-jpa" target="1.7" />
+      <module name="hug-data-mybatis" target="1.7" />
+      <module name="hug-spring-framework" target="1.7" />
+      <module name="hug-web-example" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

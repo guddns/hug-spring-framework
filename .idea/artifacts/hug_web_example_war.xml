@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hug-web-example:war">
+    <output-path>$PROJECT_DIR$/hug-web-example/target</output-path>
+    <root id="archive" name="hug-web-example.war">
+      <element id="artifact" artifact-name="hug-web-example:war exploded" />
+    </root>
+  </artifact>
+</component>

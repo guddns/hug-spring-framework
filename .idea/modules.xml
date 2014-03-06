@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/hug-data-jpa/hug-data-jpa.iml" filepath="$PROJECT_DIR$/hug-data-jpa/hug-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/hug-data-mybatis/hug-data-mybatis.iml" filepath="$PROJECT_DIR$/hug-data-mybatis/hug-data-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/hug-spring-framework.iml" filepath="$PROJECT_DIR$/hug-spring-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hug-web-example/hug-web-example.iml" filepath="$PROJECT_DIR$/hug-web-example/hug-web-example.iml" />
     </modules>
   </component>
 </project>
