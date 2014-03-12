@@ -15,17 +15,16 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@Import(MessageSourceConfig.class)
-public @interface EnableMessageSource {
-
+@Import(MessageSourceConfiguration.class)
+public @interface EnableMessageSource
+{
 	/**
 	 * 기본 인코딩값
 	 */
 	String defaultEncoding() default "UTF-8";
 
 	/**
-	 * properties 의 경로를 지정한다.
+	 * properties 의 경로
 	 */
 	String[] basenames() default {"classpath:i18n/message"};
-
 }

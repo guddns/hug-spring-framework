@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
  */
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@Import(VelocityConfig.class)
+@Import(VelocityConfiguration.class)
 public @interface EnableVelocity {
 
 	String suffix() default ".vm";

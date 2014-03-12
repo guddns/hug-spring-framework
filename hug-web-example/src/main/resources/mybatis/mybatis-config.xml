@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <setting name="cacheEnabled" value="true"/>
+        <setting name="lazyLoadingEnabled" value="false"/>
+        <setting name="multipleResultSetsEnabled" value="true"/>
+        <setting name="useColumnLabel" value="true"/>
+        <setting name="useGeneratedKeys" value="true"/>
+        <setting name="defaultExecutorType" value="SIMPLE"/>
+        <setting name="defaultStatementTimeout" value="25000"/>
+	    <setting name="jdbcTypeForNull" value="NULL"/>
+	    <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+	<typeAliases>
+		<package name="com.cjhv.dto"></package>
+	</typeAliases>
+
+    <!--<typeHandlers>-->
+		<!--<typeHandler handler="pe.hug.core.type.handler.DateTimeTypeHandler" javaType="org.joda.time.DateTime"/>-->
+	    <!--<typeHandler handler="pe.hug.core.type.handler.YesNoTypeHandler" javaType="pe.hug.core.type.YesNo"/>-->
+	    <!--<typeHandler handler="com.cjhv.type.handler.OsTypeHandler" javaType="com.cjhv.type.OsType"/>-->
+	    <!--<typeHandler handler="com.cjhv.type.handler.StatusTypeHandler" javaType="com.cjhv.type.StatusType"/>-->
+    <!--</typeHandlers>-->
+
+	<!--<plugins>-->
+		<!--<plugin interceptor="com.cjhv.interceptor.MybatisLogInterceptor"></plugin>-->
+	<!--</plugins>-->
+
+	<!--<mappers>-->
+		<!--<mapper resource="mybatis/mapper/WatchMapper.xml"/>-->
+		<!--&lt;!&ndash;<mapper resource="mybatis/mapper/AppMapper.xml"/>&ndash;&gt;-->
+		<!--&lt;!&ndash;<mapper resource="mybatis/mapper/PushMapper.xml"/>&ndash;&gt;-->
+		<!--&lt;!&ndash;<mapper resource="mybatis/mapper/TargetMapper.xml"/>&ndash;&gt;-->
+		<!--&lt;!&ndash;<mapper resource="mybatis/mapper/TokenMapper.xml"/>&ndash;&gt;-->
+	<!--</mappers>-->
+
+</configuration>

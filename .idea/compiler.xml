@@ -25,6 +25,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="hug-core" />
+        <module name="hug-data" />
         <module name="hug-data-jpa" />
         <module name="hug-data-mybatis" />
         <module name="hug-web-example" />
@@ -32,6 +33,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hug-core" target="1.7" />
+      <module name="hug-data" target="1.7" />
       <module name="hug-data-jpa" target="1.7" />
       <module name="hug-data-mybatis" target="1.7" />
       <module name="hug-spring-framework" target="1.7" />

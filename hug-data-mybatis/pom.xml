@@ -11,5 +11,31 @@
 
 	<artifactId>hug-data-mybatis</artifactId>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.hug</groupId>
+			<artifactId>hug-data</artifactId>
+			<version>${project.parent.version}</version>
+		</dependency>
 
+		<!-- String Framework -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+
+		<!-- Mybatis -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+		</dependency>
+	</dependencies>
 </project>

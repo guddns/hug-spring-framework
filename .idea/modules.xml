@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hug-core/hug-core.iml" filepath="$PROJECT_DIR$/hug-core/hug-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hug-data/hug-data.iml" filepath="$PROJECT_DIR$/hug-data/hug-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/hug-data-jpa/hug-data-jpa.iml" filepath="$PROJECT_DIR$/hug-data-jpa/hug-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/hug-data-mybatis/hug-data-mybatis.iml" filepath="$PROJECT_DIR$/hug-data-mybatis/hug-data-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/hug-spring-framework.iml" filepath="$PROJECT_DIR$/hug-spring-framework.iml" />
